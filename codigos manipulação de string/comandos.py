@@ -20,3 +20,8 @@ print(texto[:8])
 #da 9 posição até a ultima
 print(texto[8:])
 
+#mostra o tamanho do texto com espaços
+print(len(texto))
+
+#(count) conta quantas vezes aparece a palavra 
+print(texto.count('python'))
