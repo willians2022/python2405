@@ -1,4 +1,4 @@
-texto = " curso de python "
+texto = "curso de python "
 #imprimir a variavel
 print(texto)
 
@@ -25,3 +25,48 @@ print(len(texto))
 
 #(count) conta quantas vezes aparece a palavra 
 print(texto.count('python'))
+
+#(find) verifica se tem na frase e mostre a sua primeira  posição 
+print(texto.find('python'))
+
+#(in) verifica se tem nba frase e retorna true ou false 
+print("python" in texto)
+
+#(replace) substuir a palavra antiga pela nova 
+print(texto.replace("python","java"))
+
+#(upper) todas as letras maiuscula 
+print(texto.upper())
+
+#(lower) todas as letras minuscula
+print(texto.lower())
+
+#(capitalizer) apenas a primeira letra maiuscula
+print(texto.capitalize())
+
+#(title) colocar todas letra iniciais das palavras maiuscula
+print(texto.title())
+
+#(strip) remova os espaços inuteis
+print(texto.strip())
+
+#(rstrip) remova os espaço inuteis da direita 
+print(texto.rstrip())
+
+#(lstrip) remova o espaço inuteis da esquerda 
+print(texto.lstrip())
+
+#"+" (join) adiciona o caracter no meio de cada caracter 
+print("+".join(texto))
+
+#(split) adicionar um array no meio de cada caracter como  forsse um lista  
+print(texto.split())
+
+#(fraseDividida) em um array e mostra a ultima palavra
+fraseDividida=texto.split()
+print(fraseDividida[-1])
+
+#(rfind) encontra a ultima palavra 
+texto= "curso de python "
+print(texto.rfind("curso"))
+
