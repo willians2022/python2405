@@ -10,21 +10,21 @@
 nomeCompleto=input('Digite o seu nome completo:\n')
 
 
-#print(nomeCompleto.upper())
-#print(nomeCompleto.lower())
+print(nomeCompleto.upper())
+print(nomeCompleto.lower())
 
 
-#contagemEspaco=nomeCompleto.count(' ')
-#tamanhoTexto=len(nomeCompleto)
-#print(tamanhoTexto-contagemEspaco)
+contagemEspaco=nomeCompleto.count(' ')
+tamanhoTexto=len(nomeCompleto)
+print(tamanhoTexto-contagemEspaco)
 
-#nomeSemEspaco=nomeCompleto.replace(' ','')
-# #print(len(nomeSemEspaco))
+nomeSemEspaco=nomeCompleto.replace(' ','')
+print(len(nomeSemEspaco))
 
-#primeiroNome=nomeCompleto.split()[0]
-#print(len(primeiroNome))
+primeiroNome=nomeCompleto.split()[0]
+print(len(primeiroNome))
 
-#print(nomeCompleto.find(' '))#
+print(nomeCompleto.find(' '))#
 
 
 
