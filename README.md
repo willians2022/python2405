@@ -1,1 +1,0 @@
-# cursopythonsenai2024
