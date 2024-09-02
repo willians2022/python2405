@@ -5,6 +5,7 @@
 # Isósceles: Dois lados iguais
 # Escaleno: Todos os lados diferentes
 
+#para saber qual é o formato do triangulo 
 
 reta1 = int(input('digite o valor da 1° reta :' ))
 reta2 = int(input('digite o valor da 2° reta :' ))
@@ -14,7 +15,7 @@ if reta1+reta2>reta3 and reta1+reta3>reta2 and reta2+reta3>reta1:
     if reta1 == reta2 == reta3:
         print(f'triangulo equilatero')
     elif reta1 == reta2 or reta2 == reta3 or reta3 == reta1 :
-        print('triangulo isosceles')
+        print('triangulo isósceles')
     else:
         print('escaleno todos os lados diferente ')
 else:
